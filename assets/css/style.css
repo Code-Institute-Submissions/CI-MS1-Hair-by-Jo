@@ -10,14 +10,20 @@
     color: #fff;
 }
 
-/*--------------------------------------------Navbar*/
-
-@media (min-width: 768px) {
-.navbar-brand.abs
-    {
-        position: absolute;
-        width: 100%;
-        left: 0;
-        text-align: center;
-    }
+footer {
+    background-color: #50256e;
 }
+
+/*--------------------------------------------Special paddings/margins/text*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+/*--------------------------------------------Navbar*/
