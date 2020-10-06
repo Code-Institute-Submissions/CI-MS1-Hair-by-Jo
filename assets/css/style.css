@@ -33,3 +33,19 @@ footer {
     color: #fff;
     min-height: 120px;
 }
+
+.social-links {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 32px;
+    line-height: 7px;
+    text-align: center;
+    color: #fff;
+}
