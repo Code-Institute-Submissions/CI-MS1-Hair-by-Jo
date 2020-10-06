@@ -10,10 +10,6 @@
     color: #fff;
 }
 
-footer {
-    background-color: #50256e;
-}
-
 /*--------------------------------------------Special paddings/margins/text*/
 
 .uppercase {
@@ -26,4 +22,14 @@ footer {
     text-align: center;
 }
 
-/*--------------------------------------------Navbar*/
+.inline-block {
+    display: inline-block;
+}
+
+/*--------------------------------------------Footer*/
+
+footer {
+    background-color: #50256e;
+    color: #fff;
+    min-height: 120px;
+}
