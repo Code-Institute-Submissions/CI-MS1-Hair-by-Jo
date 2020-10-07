@@ -30,6 +30,14 @@
     padding-right: 10px;
 }
 
+.content-headings {
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    padding: 50px 0;
+    font-weight: 700;
+}
+
 /*--------------------------------------------Footer*/
 
 footer {
