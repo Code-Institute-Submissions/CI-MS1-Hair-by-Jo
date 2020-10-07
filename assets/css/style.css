@@ -26,6 +26,10 @@
     display: inline-block;
 }
 
+.fas {
+    padding-right: 10px;
+}
+
 /*--------------------------------------------Footer*/
 
 footer {
@@ -48,4 +52,8 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #fff;
+}
+
+#footer-details {
+    padding: 20px;
 }
