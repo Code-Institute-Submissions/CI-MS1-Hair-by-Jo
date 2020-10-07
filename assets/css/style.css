@@ -46,12 +46,18 @@
     font-weight: 700;
 }
 
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
 /*--------------------------------------------Footer*/
 
 footer {
     background-color: #50256e;
     color: #fff;
     min-height: 120px;
+    width: 100%;
 }
 
 .social-links {
