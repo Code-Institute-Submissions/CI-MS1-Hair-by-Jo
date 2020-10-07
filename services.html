@@ -8,22 +8,13 @@
 		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
 		integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
 		type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css">
 	<title>Hair by Jo</title>
 </head>
-
 <body>
+	<!--------------------------------------------------NAVBAR-------------------------------------------------->
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-dark">
 			<img src="assets/images/logo-final.png" class="logo" alt="Logo">
@@ -41,7 +32,7 @@
 			<div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
 				<ul class="navbar-nav ml-auto flex-nowrap">
 					<li class="nav-item">
-						<a href="index.html" class="nav-link">
+						<a href="#" class="nav-link">
 							<h4>Home</h4>
 						</a>
 					</li>
@@ -69,22 +60,63 @@
 			</div>
 		</nav>
 	</header>
-    <section class="container-fluid">
-        <div id="banner-details" class="row">
-            <div class="col-sm-4">
-                <h5 class="headings">Covid Compliant</h5>
-            </div>
-            <div class="col-sm-4">
-                <h5 class="headings">Over 23 Years of Experience</h5>
-            </div>
-            <div class="col-sm-4">
-                <h5 class="headings">Highly Rated</h5>
-            </div>
-        </div>
-    </section>
-	<section>
-
+	<!--------------------------------------------------BANNER-------------------------------------------------->
+	<section class="container-fluid banner-details">
+		<div id="banner-details" class="row">
+			<div class="col-sm-4">
+				<h5 class="headings">Covid Compliant</h5>
+			</div>
+			<div class="col-sm-4 d-none d-sm-block">
+				<h5 class="headings">Over 23 Years of Experience</h5>
+			</div>
+			<div class="col-sm-4 d-none d-sm-block">
+				<h5 class="headings">Highly Rated</h5>
+			</div>
+		</div>
 	</section>
+	<!--------------------------------------------------CONTAINER-------------------------------------------------->
+	<section class="container-fluid home-container">
+		<div class="row row-table">
+			<div class="col bg-main-content section-column">
+				<div class="row">
+					<div class="col">
+						<h3 class="content-headings">Are you ready for a new look?</h3>
+						<div class="home-images">
+							<img src="assets/images/home-image-1.jpg" class="rounded-circle mr-3" height=300 width=300 alt="Example of work">
+							<img src="assets/images/home-image-2.jpg" class="rounded-circle mr-3" height=300 width=300 alt="Example of work">
+							<img src="assets/images/home-image-3.jpg" class="rounded-circle mr-3" height=300 width=300 alt="Example of work">
+                        </div>
+							<br>
+							<button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Book an Appointment!</button>
+							<br>
+                    </div>
+						</div>
+					</div>
+				</div>
+	</section>
+	<!--------------------------------------------------ABOUT ME-------------------------------------------------->
+	<section class="container about-me">
+		<div class="row row-table">
+			<div class="col bg-main-content section-column">
+				<div class="row">
+					<div class="col">
+						<h5 class="headings">About Me</h5>
+						<br>
+						<p class="about-me-content text-center">
+							Hi, my name is Jo and I have been a professional hairdresser for over 23 years.
+						</p>
+						<p class="about-me-content text-center">
+							I excel in all areas of hairdressing and as a result, I am able to offer high quality
+							services across all areas including hair cuts and colors, mens cuts, hair extensions, hair
+							treatments and bridal.
+						</p>
+						<h5 class="headings"><a href="services.html">Services and Prices</a></h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--------------------------------------------------FOOTER-------------------------------------------------->
 	<footer class="container-fluid">
 		<div id="footer-details" class="row">
 			<div class="col-sm-4">
@@ -93,9 +125,9 @@
 				<p class="text-center">
 					<i class="fas fa-location-arrow" aria-hidden="true"></i>
 					<span class="sr-only">Find me</span>
-					24 Mount Drive,<br> 
-                    Harrow,<br> 
-                    Middlesex,<br> 
+					24 Mount Drive,<br>
+                    Harrow,<br>
+                    Middlesex,<br>
                     HA2 7RP<br>
                 </p>
 			</div>
@@ -115,7 +147,7 @@
 			</div>
 			<div class="col-sm-4">
 				<h5 class="uppercase general-sub">Social:</h5>
-                <br>
+				<br>
 				<ul class="list-inline social-links">
 					<li class="list-inline-item">
 						<a href="https://www.facebook.com/Hair-By-Jo-241825395880141" target="_blank">
@@ -134,6 +166,16 @@
             </div>
 			</div>
 	</footer>
+	<!--------------------------------------------------SCRIPTS-------------------------------------------------->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
 </body>
 
 </html>
