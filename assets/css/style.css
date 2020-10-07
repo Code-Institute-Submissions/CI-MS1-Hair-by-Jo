@@ -105,18 +105,19 @@ footer {
 
 .btn--red {
     color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
+    background-color: #8b0000;
+    border-color: #8b0000;
     margin:0 auto;
     display:block;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
+    background-color: #b22222;
+    border-color: #b22222;
     color: white;
 }
