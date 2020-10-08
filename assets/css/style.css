@@ -152,3 +152,28 @@ footer {
     color: white;
 }
 
+.btn-unique {
+   color: white;
+    background-color: #8b0000;
+    border-color: #8b0000;
+    margin:0 auto;
+    display:block;
+    text-transform: uppercase;
+    font-weight: 700; 
+}
+
+.btn-unique:hover,
+.btn-unique:active,
+.btn-unique:focus,
+.btn-unique:active:focus {
+    background-color: #b22222;
+    border-color: #b22222;
+    color: white;
+}
+
+/*--------------------------------------------Modal*/
+
+.modal-title {
+    color: #000;
+    text-align: center;
+}
