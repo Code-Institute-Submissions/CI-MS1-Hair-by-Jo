@@ -28,6 +28,8 @@ body {
     font-family: "Roboto", sans-serif;
     color: #fff;
     text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 .inline-block {
@@ -135,3 +137,4 @@ footer {
     border-color: #b22222;
     color: white;
 }
+
