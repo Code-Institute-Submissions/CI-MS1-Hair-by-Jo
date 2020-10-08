@@ -18,6 +18,20 @@ body {
     background-color: #dcdcdc;
 }
 
+/*--------------------------------------------Navbar*/
+
+.nav-item a {
+    width: 100%;
+}
+
+.nav-item:hover,
+.nav-item:active,
+.nav-item:focus,
+.nav-item:active:focus {
+    text-decoration: underline;
+    color: white;
+}
+
 /*--------------------------------------------Special paddings/margins/text*/
 
 .uppercase {
