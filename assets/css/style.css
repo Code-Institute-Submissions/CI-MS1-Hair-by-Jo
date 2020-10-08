@@ -69,6 +69,14 @@ body {
     justify-content: center;
 }
 
+.site-wide-alert {
+    margin: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #ffd700;
+    padding-left: 10px;
+}
+
 /*--------------------------------------------Footer*/
 
 footer {
