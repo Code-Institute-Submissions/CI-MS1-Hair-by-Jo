@@ -44,7 +44,7 @@
 			<div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
 				<ul class="navbar-nav ml-auto flex-nowrap">
 					<li class="nav-item">
-						<a href="#" class="nav-link">
+						<a href="index.html" class="nav-link">
 							<h4>Home</h4>
 						</a>
 					</li>
@@ -94,9 +94,15 @@
 					<div class="col">
 						<h3 class="content-headings">Are you ready for a new look?</h3>
 						<div class="home-images">
-							<img src="assets/images/home-image-1.jpg" class="rounded-circle mr-3" height="300" width="300" alt="Example of work">
-							<img src="assets/images/home-image-2.jpg" class="rounded-circle mr-3" height="300" width="300" alt="Example of work">
-							<img src="assets/images/home-image-3.jpg" class="rounded-circle mr-3" height="300" width="300" alt="Example of work">
+                            <div class="home-image-1 d-none d-lg-block">
+                                <img src="assets/images/home-image-1.jpg" class="rounded-circle mr-3" height="300" width="300" alt="Example of work">
+                            </div>
+                            <div class="home-image-2">
+                                <img src="assets/images/home-image-2.jpg" class="rounded-circle mr-3" height="300" width="300" alt="Example of work">
+                            </div>
+                            <div class="home-image-3 d-none d-lg-block">
+                                <img src="assets/images/home-image-3.jpg" class="rounded-circle mr-3" height="300" width="300" alt="Example of work">
+                            </div>
                         </div>
 							<br>
 							<button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Book an Appointment!</button>
@@ -131,11 +137,11 @@
 	<!--------------------------------------------------FOOTER-------------------------------------------------->
 	<footer class="container-fluid">
 		<div id="footer-details" class="row">
-			<div class="col-sm-4">
+			<div class="col-md-4">
 				<h5 class="uppercase general-sub">Where to find me:</h5>
 				<br>
 				<p class="text-center">
-					<i class="fas fa-location-arrow" aria-hidden="true"></i>
+					<i class="fas fa-map-marker-alt" aria-hidden="true"></i>
 					<span class="sr-only">Find me</span>
 					24 Mount Drive,<br>
                     Harrow,<br>
@@ -143,7 +149,7 @@
                     HA2 7RP<br>
                 </p>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-md-4">
 				<h5 class="uppercase general-sub">Contact me:</h5>
 				<br>
 				<p class="text-center">
@@ -153,11 +159,12 @@
 					<br>
 					<i class="fas fa-envelope" aria-hidden="true"></i>
 					<span class="sr-only">Email me</span>
-					hairbyjo@googlemail.com<br>
+					<a href="mailto:hairbyjo@googlemail.com?subject=I'd like to make an appointment" target="_blank">
+						hairbyjo@googlemail.com</a>
 					<br>
                 </p>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-md-4">
 				<h5 class="uppercase general-sub">Social:</h5>
 				<br>
 				<ul class="list-inline social-links">
