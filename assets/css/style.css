@@ -18,6 +18,10 @@ body {
     background-color: #dcdcdc;
 }
 
+#email-color {
+    color: #fff;
+}
+
 /*--------------------------------------------Navbar*/
 
 .nav-item a {
