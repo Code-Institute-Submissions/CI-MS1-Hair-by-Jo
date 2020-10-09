@@ -33,7 +33,7 @@ body {
 }
 
 .navbar-brand {
-    margin-right: 0px;
+    margin-right: 10px;
 }
 
 /*--------------------------------------------Special paddings/margins/text*/
@@ -189,3 +189,4 @@ footer {
     color: #000;
     text-align: center;
 }
+
