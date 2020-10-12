@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 * {
     font-size: 10px;
 }
@@ -6,7 +6,7 @@ p {
     font-size:1.6rem;
 }
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
 }
 /*--------------------------------------------Colors*/
 .navbar {
@@ -41,7 +41,7 @@ body {
     text-transform: uppercase;
 }
 .general-sub {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
     color: #fff;
     text-align: center;
     text-decoration: underline;
@@ -131,7 +131,7 @@ footer {
 }
 /*--------------------------------------------Content*/
 .about-me-content {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
     font-weight: 500;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
