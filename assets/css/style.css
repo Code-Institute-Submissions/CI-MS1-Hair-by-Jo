@@ -105,6 +105,10 @@ h4 {
 strong {
     font-size: 1.6rem;
 }
+
+h3 em {
+    font-size: 2.5rem;
+}
 /*--------------------------------------------Footer*/
 footer {
     background-color: #50256e;
@@ -138,39 +142,41 @@ footer {
     font-size: 1.6rem;
 }
 /*--------------------------------------------Buttons*/
-.btn--red {
+.btn--green {
     color: white;
-    background-color: #8b0000;
-    border-color: #8b0000;
+    background-color: #00AF34;
+    border-color: #00AF34;
     margin:0 auto;
     display:block;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.6rem;
+    border-radius: 1.5rem;
 }
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-    background-color: #b22222;
-    border-color: #b22222;
+.btn--green:hover,
+.btn--green:active,
+.btn--green:focus,
+.btn--green:active:focus {
+    background-color: #00AF64;
+    border-color: #00AF64;
     color: #fff;
 }
 .btn-unique {
    color: #fff;
-    background-color: #8b0000;
-    border-color: #8b0000;
+    background-color: #00AF34;
+    border-color: #00AF34;
     margin:0 auto;
     display:block;
     text-transform: uppercase;
-    font-weight: 700; 
+    font-weight: 700;
+    border-radius: 1.5rem;
 }
 .btn-unique:hover,
 .btn-unique:active,
 .btn-unique:focus,
 .btn-unique:active:focus {
-    background-color: #b22222;
-    border-color: #b22222;
+    background-color: #00AF64;
+    border-color: #00AF64;
     color:#fff;
 }
 /*--------------------------------------------Modal*/
