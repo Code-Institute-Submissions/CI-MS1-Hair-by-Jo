@@ -203,10 +203,8 @@ footer {
 .table {
     width: 100%;
     font-size: 1.6rem;
-    padding-left: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-right: 4rem;
+    padding: 2rem;
+    margin: auto;
 }
 td {
     font-size: 1.4rem;
@@ -214,4 +212,5 @@ td {
 .services-container i {
     font-size: 3.2rem;
     padding-left: 1rem;
+    margin: 0;
 }
