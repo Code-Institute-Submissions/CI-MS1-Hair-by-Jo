@@ -226,3 +226,12 @@ td {
     margin: auto;
     text-align: center;
 }
+/*--------------------------------------------Testimonials*/
+
+.testimonials-box {
+    background-color: #dcdcdc;
+    padding: 3rem;
+    height: 20rem;
+    margin: auto;
+    text-align: center;
+}
