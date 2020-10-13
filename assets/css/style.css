@@ -3,7 +3,7 @@
     font-size: 10px;
 }
 p {
-    font-size:1.6rem;
+    font-size:1.4rem;
 }
 body {
     font-family: 'Balsamiq Sans', cursive;
@@ -70,6 +70,7 @@ body {
     font-weight: 700;
     text-decoration: underline;
     text-underline-position: under;
+    line-height: 1.6;
 }
 .container-fluid {
     padding: 0;
@@ -115,13 +116,18 @@ h3 em {
     padding: 2rem 0;
     font-weight: 700;
     text-decoration: underline;
-    text-underline-position: under; 
+    text-underline-position: under;
+    line-height: 1.6;
 }
 #salon-image {
     display: block;
     max-width: 100%;
     height: auto;
     padding: 2rem;
+}
+
+a {
+    font-size: 1.6rem;
 }
 /*--------------------------------------------Footer*/
 footer {
@@ -199,18 +205,17 @@ footer {
     text-align: center;
 }
 
-/*--------------------------------------------Services Table*/
+/*--------------------------------------------Services*/
 .table {
     width: 100%;
     font-size: 1.6rem;
-    padding: 2rem;
     margin: auto;
 }
 td {
     font-size: 1.4rem;
 }
 .services-container i {
-    font-size: 3.2rem;
+    font-size: 2rem;
     padding-left: 1rem;
     margin: 0;
 }
