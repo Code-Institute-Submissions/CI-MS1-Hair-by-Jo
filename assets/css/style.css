@@ -123,11 +123,10 @@ h3 em {
     display: block;
     max-width: 100%;
     height: auto;
-    padding: 2rem;
+    padding: 1rem;
 }
-
 a {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 /*--------------------------------------------Footer*/
 footer {
