@@ -218,3 +218,11 @@ td {
     padding-left: 1rem;
     margin: 0;
 }
+/*--------------------------------------------Gallery*/
+.carousel-inner {
+    padding: 1rem;
+    height: 70rem;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
