@@ -17,9 +17,6 @@ body {
 .navbar h1, h4 {
     color: #fff;
 }
-.home-container {
-    background-color: #dcdcdc;
-}
 #email-color {
     color: #fff;
     font-size: 1.6rem;
@@ -108,8 +105,8 @@ strong {
     font-size: 1.6rem;
 }
 
-h3 em {
-    font-size: 2.5rem;
+h2 em {
+    font-size: 1.8rem;
 }
 .headings-services {
     text-transform: uppercase;
@@ -243,4 +240,52 @@ td {
     border-radius: 50%;
     font-size: 3.2rem;
     line-height: .7rem;
+}
+
+/*-------------------------------------------- Hero Image*/
+#hero-image {
+     background: url("../images/hero-image.jpg") no-repeat center center;
+     height: 60vh;
+     width: 100%;
+     background-size: cover;
+
+     animation-name: hero-zoom;
+     animation-duration: 5s;
+     animation-fill-mode: forwards;
+}
+.home-container {
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+}
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text, #cover-text h2 {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+#cover-text {
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+    text-transform: uppercase;
+
+    width: 35rem;
+    height: 12rem;
+    padding-top: 1rem;
+    margin: auto;
+
+    background-color: rgba(80, 37, 110, .6);
+
+    bottom: 5rem;
+    left: 0;
+    right: 0;
+
+    position: absolute;
 }
