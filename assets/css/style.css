@@ -298,3 +298,12 @@ td {
 
     position: absolute;
 }
+/*-------------------------------------------- Media Queries*/
+@media (max-width: 345px) {
+    .navbar h1 {
+        padding: .5rem;
+    }
+    .site-wide-alert, .site-wide-alert strong {
+        font-size: 1.4rem;
+    }
+}
