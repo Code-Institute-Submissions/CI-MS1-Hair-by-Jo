@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
 * {
     font-size: 10px;
     overflow-x: hidden;
@@ -7,7 +7,7 @@ p {
     font-size:1.4rem;
 }
 body {
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Laila', serif;
     overflow-x: hidden;
 }
 /*--------------------------------------------Colors*/
@@ -16,7 +16,7 @@ body {
 }
 .navbar h1, h4 {
     color: #fff;
-    letter-spacing: .1rem;
+    padding: 1rem;
 }
 #email-color {
     color: #fff;
@@ -35,18 +35,18 @@ body {
 }
 .navbar-brand {
     margin-right: 1rem;
-    letter-spacing: .1rem;
 }
 /*--------------------------------------------Special paddings/margins/text*/
 .uppercase {
     text-transform: uppercase;
 }
 .general-sub {
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Laila', serif;
     color: #fff;
     text-align: center;
     text-decoration: underline;
     text-underline-position: under;
+    padding: 1rem;
 }
 .inline-block {
     display: inline-block;
@@ -140,6 +140,7 @@ footer {
     color: #fff;
     min-height: 12rem;
     width: 100%;
+    padding: 1rem;
 }
 .social-links {
     padding-bottom: 1.5rem;
@@ -156,12 +157,11 @@ footer {
     color: #fff;
 }
 #footer-details {
-    padding: 2rem;
-    letter-spacing: .1rem;
+    padding: 2.5rem;
 }
 /*--------------------------------------------Content*/
 .about-me-content {
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Laila', serif;
     font-weight: 500;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -271,17 +271,19 @@ td {
 }
 #cover-text, #cover-text h2 {
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    padding: .5rem;
+    margin-bottom: 0;
 }
 
 #cover-text {
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Laila', serif;
     text-align: center;
-    text-transform: uppercase;
+
 
     width: 35rem;
     height: 12rem;
-    padding-top: 1rem;
+    padding: 1.4rem;
     margin: auto;
 
     background-color: rgba(29, 53, 87, .7);
