@@ -10,7 +10,7 @@ body {
     font-family: 'Laila', serif;
     overflow-x: hidden;
 }
-/*--------------------------------------------Colors*/
+/*--------------------------------------------Navbar*/
 .navbar {
     background-color: #1D3557;
 }
@@ -18,11 +18,6 @@ body {
     color: #fff;
     padding: 1rem;
 }
-#email-color {
-    color: #fff;
-    font-size: 1.6rem;
-}
-/*--------------------------------------------Navbar*/
 .nav-item a {
     width: 100%;
 }
@@ -36,9 +31,20 @@ body {
 .navbar-brand {
     margin-right: 1rem;
 }
-/*--------------------------------------------Special paddings/margins/text*/
-.uppercase {
-    text-transform: uppercase;
+/*--------------------------------------------Headings*/
+h1 {
+    padding-left: .5rem;
+    font-size: 3.5rem;
+}
+h2 em {
+    font-size: 1.8rem;
+}
+h4 {
+    font-size: 2.5rem;
+}
+h5 {
+    margin: 0;
+    font-size: 2rem;
 }
 .general-sub {
     font-family: 'Laila', serif;
@@ -47,12 +53,6 @@ body {
     text-decoration: underline;
     text-underline-position: under;
     padding: 1rem;
-}
-.inline-block {
-    display: inline-block;
-}
-.fas {
-    padding-right: 1rem;
 }
 .content-headings {
     text-transform: uppercase;
@@ -72,14 +72,27 @@ body {
     line-height: 1.6;
     padding-bottom: 1rem;
 }
+.headings-services {
+    text-transform: uppercase;
+    color: #000;
+    padding-top: 2rem;
+    font-weight: 700;
+    line-height: 1.6;
+    padding-bottom: 1rem;
+}
+/*--------------------------------------------Special paddings/margins/text*/
+.uppercase {
+    text-transform: uppercase;
+}
+.inline-block {
+    display: inline-block;
+}
+.fas {
+    padding-right: 1rem;
+}
 .container-fluid {
     padding: 0;
     margin: 0;
-}
-.home-images {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .site-wide-alert {
     margin: 0;
@@ -89,41 +102,11 @@ body {
     font-size: 1.6rem;
     text-align: center;
 }
-h1 {
-    padding-left: .5rem;
-    font-size: 3.5rem;
-}
-h5 {
-    margin: 0;
-    font-size: 2rem;
-}
 #services-link {
     font-size: 1.6rem;
 }
-h4 {
-    font-size: 2.5rem;
-}
-
 strong {
     font-size: 1.6rem;
-}
-
-h2 em {
-    font-size: 1.8rem;
-}
-.headings-services {
-    text-transform: uppercase;
-    color: #000;
-    padding-top: 2rem;
-    font-weight: 700;
-    line-height: 1.6;
-    padding-bottom: 1rem;
-}
-#salon-image {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    padding: 1rem;
 }
 a {
     font-size: 1.4rem;
@@ -134,9 +117,6 @@ a {
     height: .5rem;
     margin-top: 0;
     margin-bottom: 2rem;
-}
-.home-images {
-    padding: 2rem;
 }
 /*--------------------------------------------Footer*/
 footer {
@@ -163,7 +143,11 @@ footer {
 #footer-details {
     padding: 2.5rem;
 }
-/*--------------------------------------------Content*/
+#email-color {
+    color: #fff;
+    font-size: 1.6rem;
+}
+/*--------------------------------------------About Me Content*/
 .about-me-content {
     font-family: 'Laila', serif;
     font-weight: 500;
@@ -214,7 +198,7 @@ footer {
     color: #000;
     text-align: center;
 }
-/*--------------------------------------------Services*/
+/*--------------------------------------------Services Page*/
 .table {
     width: 100%;
     font-size: 1.6rem;
@@ -228,7 +212,7 @@ td {
     padding-left: 1rem;
     margin: 0;
 }
-/*--------------------------------------------Testimonials*/
+/*--------------------------------------------Testimonials Page*/
 .testimonials-container {
     padding: 2rem;
 }
@@ -248,7 +232,6 @@ td {
     font-size: 3.2rem;
     line-height: .7rem;
 }
-
 /*-------------------------------------------- Hero Image*/
 #hero-image {
      background: url("../images/hero-image.jpg") no-repeat center center;
@@ -279,7 +262,6 @@ td {
     padding: .5rem;
     margin-bottom: 0;
 }
-
 #cover-text {
     font-family: 'Laila', serif;
     text-align: center;
@@ -298,6 +280,21 @@ td {
 
     position: absolute;
 }
+/*--------------------------------------------Images*/
+.home-images {
+    padding: 2rem;
+}
+#salon-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+.home-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*-------------------------------------------- Media Queries*/
 @media (max-width: 345px) {
     .navbar h1 {
@@ -307,7 +304,6 @@ td {
         font-size: 1.4rem;
     }
 }
-
 /*--------------------------------------------404*/
 .error {
     font-size: 1.4rem;
