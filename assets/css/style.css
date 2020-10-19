@@ -29,7 +29,7 @@ body {
     color: #fff;
 }
 .navbar-brand {
-    margin-right: 1rem;
+    margin-right: 0;
 }
 /*--------------------------------------------Headings*/
 h1 {
@@ -227,7 +227,7 @@ td {
 .testimonials-box {
     background-color: #dcdcdc;
     padding: 3rem;
-    height: 28rem;
+    height: 30rem;
     margin: auto;
     text-align: center;
     font-size: 1.4rem;
