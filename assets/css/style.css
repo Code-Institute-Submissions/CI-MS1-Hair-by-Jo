@@ -198,6 +198,9 @@ footer {
     color: #000;
     text-align: center;
 }
+.modal-body label {
+    font-size: 1.6rem
+}
 /*--------------------------------------------Services Page*/
 .table {
     width: 100%;
