@@ -293,9 +293,6 @@ td {
     position: absolute;
 }
 /*--------------------------------------------Images*/
-.home-images {
-    padding: 2rem;
-}
 #salon-image {
     display: block;
     max-width: 100%;
@@ -306,6 +303,7 @@ td {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2rem;
 }
 /*-------------------------------------------- Media Queries*/
 @media (max-width: 345px) {
