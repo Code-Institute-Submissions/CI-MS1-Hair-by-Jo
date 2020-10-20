@@ -4,14 +4,17 @@
 
 [View the live project here](https://scottsimpson91.github.io/CI-MS1-Hair-by-Jo/)
 
+
+
 ![](assets/images/website-mock-up.png)
+
 
 
 The aim of my first project for the Code Institute was to create a platform for my sister's hairdressing business which was designed to increase the number of enquiries made.
 
 
 
-### <u>Contents:</u>
+### Contents:
 
 * Description
 * User Stories
@@ -28,13 +31,13 @@ The aim of my first project for the Code Institute was to create a platform for 
 
 
 
-### <u>Description</u>
+### Description
 
 The Hair by Jo project was designed to provide my sister with a website where she is able to demonstrate her work and increase the number of enquiries made. By creating a website with a method of easily contacting her, this will hopefully make the process of getting an appointment a lot easier, which will ultimately increase business.
 
 
 
-### <u>User Stories</u>
+### User Stories
 
 * "I want to easily understand the main purposes of the site and learn more about the business"
 * "I want to be able to navigate throughout the site easily and find services and prices on offer"
@@ -46,7 +49,7 @@ The Hair by Jo project was designed to provide my sister with a website where sh
 
 
 
-### <u>Market Research</u>
+### Market Research
 
 I decided to carry out B2C interviews with customers to find out what makes a good UX and what information and features they would like to see on the website.
 
@@ -56,13 +59,13 @@ All of this information was used when designing the layout, colour scheme, typog
 
 
 
-### <u>UX</u>
+### UX
 
 The website was designed mainly for a female demographic of all ages, however with the male customer also in mind. It was designed to be a simple, yet effective website which clearly demonstrated examples of Jo's work and ways to contact her.
 
 
 
-##### <u>1. Strategy</u>
+##### 1. Strategy
 
 The aim of the project was to increase the number of enquiries made with the business by providing a simple and clean UX which was user-friendly. An increased number of enquiries will hopefully lead to more appointments.
 
@@ -91,7 +94,7 @@ The aim of the project was to increase the number of enquiries made with the bus
 
   
 
-##### <u>2. Scope</u>
+##### 2. Scope
 
 The scope of the project and features to include were influenced by the market research carried out with customers. It should be a mobile-first website that is responsive on all devices.
 
@@ -124,7 +127,7 @@ The scope of the project and features to include were influenced by the market r
 
 
 
-##### <u>3. Structure</u>
+##### 3. Structure
 
 The site was designed to have essential pages which are Home, Services, Gallery, Testimonials and a Contact modal which was gathered using B2C research. The same navigation bar and footer will be used across all pages for consistency and better IXD.
 
@@ -142,13 +145,13 @@ A footer with clear ways of contacting the business and links to the social medi
 
 
 
-##### <u>4. Skeleton</u>
+##### 4. Skeleton
 
-* [Wireframe](assets/docs/hair-by-jo-wireframe.pdf) was created using [Balsamiq](https://balsamiq.com/)
+* [Wireframe](docs/hair-by-jo-wireframe.pdf) was created using [Balsamiq](https://balsamiq.com/)
 
 
 
-##### <u>5. Surface</u>
+##### 5. Surface
 
 ###### Design
 
@@ -166,7 +169,7 @@ A footer with clear ways of contacting the business and links to the social medi
 
 
 
-### <u>Future Improvements</u>
+### Future Improvements
 
 * Form submission and book appointment button to be functional
 * Implement a booking system, whereby a customer is able to directly book in and see the diary rather than having to make an enquiry first
@@ -177,7 +180,7 @@ A footer with clear ways of contacting the business and links to the social medi
 
 
 
-### <u>Changes</u>
+### Changes
 
 A number of changes were made after the initial wireframe was created, these include:
 
@@ -188,7 +191,7 @@ A number of changes were made after the initial wireframe was created, these inc
 
 
 
-### <u>Technologies Used</u>
+### Technologies Used
 
 ###### Languages Used
 
@@ -214,7 +217,17 @@ A number of changes were made after the initial wireframe was created, these inc
 
 
 
-### <u>Testing</u>
+### Testing
+
+###### General Testing
+
+* Tested all external links opened in a new tab and went to the correct page
+* Tested all internal links within the pages
+* Tested the logo and main h1 header linked back to the home page on all pages
+* Tested all buttons work
+* Tested modal form to see if it would send without any information input
+
+
 
 ###### Validation
 
@@ -222,9 +235,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 
-[W3C Markup Validator](https://validator.w3.org/) - [Results]()
+[W3C Markup Validator](https://validator.w3.org/) 
 
-[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results]()
+* Home - PASS
+* Services - PASS
+* Gallery - PASS
+* Testimonials - PASS
+
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - PASS
 
 
 
@@ -247,21 +265,29 @@ The following devices were used:
 
 
 
-###### Errors During Device Testing
+###### Errors/Bugs During Device Testing
 
 * iPad Mini / iPad Air
   * Menu icon not aligned to right, but moves to the right when clicked
   * Some footer text overlapped
-  * Modal button possibly needed enlarging
+  * Modal buttons needed enlarging
+  * Need to add background colour to modal close button as it was hard to find
+  * Email icon in footer was appearing on own line
 * iPhone 7
   * Vertical scrolling appeared within footer, gallery and testimonials
+  * Modal buttons needed enlarging
+  * Need to add background colour to modal close button as it was hard to find
 * iPhone X
-  * Modal button possibly needed enlarging
+  * Modal buttons needed enlarging
+  * Need to add background colour to modal close button as it was hard to find
   * Vertical scrolling appeared on testimonials page
 * iPhone 11 Pro Max
   * Vertical scrolling appeared in the home page paragraph text, testimonials and footer
+  * Modal buttons needed enlarging
+  * Need to add background colour to modal close button as it was hard to find
 * Samsung Galaxy S9
-  * No immediate issues
+  * Modal buttons needed enlarging
+  * Need to add background colour to modal close button as it was hard to find
 * iMac - OS X Yosemite
   * No immediate issues
 * Sony Vaio Laptop - Windows 8
@@ -278,6 +304,7 @@ The following devices were used:
   * "The *aria-labelledby* attribute must point to an element in the same document" - Solution found [here](https://stackoverflow.com/questions/39831658/how-to-fix-the-aria-labelledby-attribute-must-point-to-an-element-in-the-same-d)
   * "Start tag *h5* seen in table" - Solution found [here](https://stackoverflow.com/questions/29267642/validation-notice-start-tag-div-seen-in-table)
   * "Section lacks heading. Consider using *h2-h6* elements to add identifying headings to all sections." - Solution found [here](https://stackoverflow.com/questions/24155024/w3c-html-validation-error-section-lacks-heading-consider-using-h2-h6-elements)
+  * "Attribute *alt* not allowed on element *div* at this point"
 
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
   * No errors found
@@ -290,17 +317,17 @@ The following devices were used:
 
 
 
-### <u>Deployment</u>
+### Deployment
 
 
 
-### <u>Credits</u>
+### Credits
 
 ###### Media
 
 * Hero image sourced from [Unsplash](https://unsplash.com/photos/z0FhTWzKtxY)
 * Other images sourced from Jo with permission who owns the photos and are published on her [Facebook](https://www.facebook.com/Hair-By-Jo-241825395880141) and [Instagram](https://www.instagram.com/hairbyjo_jo.x/)
-* 404 page image was created by Gan Khoon Lay from the [Noun Project](Bad Haircut by Gan Khoon Lay from the Noun Project)
+* 404 page image was created by Gan Khoon Lay from the [Noun Project](https://thenounproject.com/search/?q=bad+haircut&i=980152)
 
 ###### Code Snippets
 
@@ -331,7 +358,7 @@ All text content was written by the developer
 
 
 
-### <u>Acknowledgements</u>
+### Acknowledgements
 
 I would like to thank the following:
 
@@ -341,7 +368,7 @@ I would like to thank the following:
 
 
 
-### <u>Support</u>
+### Support
 
 For any issues or information, please email me on scottsimpson7@googlemail.com
 
