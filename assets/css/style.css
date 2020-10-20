@@ -148,6 +148,9 @@ footer {
     color: #fff;
     font-size: 1.6rem;
 }
+.footer-content {
+    padding: 0;
+}
 /*--------------------------------------------About Me Content*/
 .about-me-content {
     font-family: 'Laila', serif;
