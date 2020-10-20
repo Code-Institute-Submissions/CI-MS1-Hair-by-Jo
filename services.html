@@ -15,31 +15,31 @@
 </head>
 
 <body>
-	<div class="container-fluid pl-0 pr-0">
+<div class="container-fluid pl-0 pr-0">
 
 <!-- ================================================SITE WIDE ALERT=====CODE TAKEN FROM WHISKEY DROP LESSONS=====-->
-		<div class="navalert-container">
-			<div class="container-fluid alert-container">
-				<div class="row">
-					<div class="col-12">
-						<div class="site-wide-alert">
-							<strong>Call me now!</strong> My number is <strong>0208-429 8022</strong>
-						</div>
+	<div class="navalert-container">
+		<div class="container-fluid alert-container">
+			<div class="row">
+				<div class="col-12">
+					<div class="site-wide-alert">
+						<strong>Call me now!</strong> My number is <strong>0208-429 8022</strong>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 
 <!-- ================================================NAVBAR============CODE TAKEN FROM CODEPLY WEBSITE==============-->
-		<header>
-			<nav class="navbar navbar-expand-lg navbar-dark">
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" class="logo" alt="Logo"></a>
                 <a class="navbar-brand" href="index.html">
                     <h1>Hair by Jo</h1>
                 </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             <div class="collapse navbar-collapse flex-grow-1 text-right" id="Navbar">
                 <ul class="navbar-nav ml-auto flex-nowrap">
                     <li class="nav-item">
@@ -71,42 +71,41 @@
             </div>
 
 <!-- ================================================MODAL=======CODE TAKEN FROM MDBOOTSTRAP WEBSITE=======-->
-        <form>    
-            <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="Modal"
-                 aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title">Write to me:</h4>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body mx-3">
-                            <div class="md-form mb-5">
-                                <label for="fullname">Your name:</label>
-                                <input type="text" id="fullname" class="form-control" aria-describedby="fullname" placeholder="Enter full name" required>
+            <form>    
+                <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="Modal" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Write to me:</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                             </div>
-                            <div class="md-form mb-5">
-                                <label for="email">Your email:</label>
-                                <input type="email" id="email" class="form-control" aria-describedby="email" placeholder="Enter email address" required>
+                            <div class="modal-body mx-3">
+                                <div class="md-form mb-5">
+                                    <label for="fullname">Your name:</label>
+                                    <input type="text" id="fullname" class="form-control" aria-describedby="fullname" placeholder="Enter full name" required>
+                                </div>
+                                <div class="md-form mb-5">
+                                    <label for="email">Your email:</label>
+                                    <input type="email" id="email" class="form-control" aria-describedby="email" placeholder="Enter email address" required>
+                                </div>
+                                <div class="md-form mb-5">
+                                    <label for="subject">Subject:</label>
+                                    <input type="text" id="subject" class="form-control" aria-describedby="fullname" placeholder="Enter your subject" required>
+                                </div>
+                                <div class="md-form">
+                                    <label for="message">Your message:</label>
+                                    <textarea name="content" id="message" class="md-textarea form-control" rows="4" aria-describedby="message" placeholder="Enter your message" required></textarea>
+                                </div>
                             </div>
-                            <div class="md-form mb-5">
-                                <label for="subject">Subject:</label>
-                                <input type="text" id="subject" class="form-control" aria-describedby="fullname" placeholder="Enter your subject" required>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-lg btn-unique">Send</button>
                             </div>
-                            <div class="md-form">
-                                <label for="message">Your message:</label>
-                                <textarea name="content" id="message" class="md-textarea form-control" rows="4" aria-describedby="message" placeholder="Enter your message" required></textarea>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="submit" class="btn btn-lg btn-unique">Send</button>
                         </div>
                     </div>
                 </div>
-            </div>
-        </form>
+            </form>
         </nav>
     </header>
 
@@ -129,127 +128,128 @@
     </section>
 
 <!-- ================================================CONTAINER=====TABLE TAKEN FROM BOOTSTRAP DOCUMENTATION=====-->
-		<section class="services-container">
-			<div class="row h-100 align-items-center">
-				<div class="col-4 d-none d-lg-block">
-					<img src="assets/images/salon.jpg" alt="My Salon" id="salon-image">
+	<section class="services-container">
+		<div class="row h-100 align-items-center">
+			<div class="col-4 d-none d-lg-block">
+				<img src="assets/images/salon.jpg" alt="My Salon" id="salon-image">
+            </div>
+				<div class="col-8 table">
+                    <h5 class="headings-services"><i class="fas fa-credit-card"><span class="sr-only">Services/Prices</span></i> Services/Prices...</h5>
+					<table class="table">
+						<tbody>
+							<tr>
+								<td>Men's Cut</td>
+								<td>£28.00</td>
+							</tr>
+							<tr>
+								<td>Wash, Cut and Blowdry</td>
+								<td>£38.00</td>
+							</tr>
+							<tr>
+								<td>Thick / Long / Restyle</td>
+								<td>£42.00</td>
+							</tr>
+							<tr>
+								<td>Tint</td>
+								<td>£36.00</td>
+							</tr>
+							<tr>
+								<td>Half Head Highlights</td>
+								<td>£50.00</td>
+							</tr>
+							<tr>
+								<td>Whole Head Highlights</td>
+								<td>£70.00</td>
+							</tr>
+							<tr>
+								<td>Balayage</td>
+								<td>£65.00 - £75.00</td>
+							</tr>
+							<tr>
+								<td>Blow Dry</td>
+								<td>£26.00</td>
+							</tr>
+							<tr>
+								<td>Bridal</td>
+								<td>Consultation Required</td>
+							</tr>
+							<tr>
+								<td>Hair Up Styling</td>
+								<td>From £35.00</td>
+							</tr>
+							<tr>
+								<td>Keratin Treatment / Brazilian Blowdry</td>
+								<td>£138.00</td>
+							</tr>
+							<tr>
+								<td>Hair Extensions</td>
+								<td>Consultation Required</td>
+							</tr>                                                                   
+						</tbody>
+					</table>
+                    <h5 class="headings-services"><i class="fas fa-first-aid"><span class="sr-only">Salon Safety</span></i> How I am keeping you safe...</h5>
+                    <p>I am in full compliance with current government guidelines for close contact services and review this on a daily basis.
+                    </p>
+                    <p>More information on the guidelines can be found here: <a href="https://www.gov.uk/guidance/working-safely-during-coronavirus-covid-19/close-contact-services" target="_blank">Working safely during COVID</a>
+                    </p>
+                    <br>
                 </div>
-					<div class="col-8 table">
-                        <h5 class="headings-services"><i class="fas fa-credit-card"><span class="sr-only">Services/Prices</span></i> Services/Prices...</h5>
-						<table class="table">
-							<tbody>
-								<tr>
-									<td>Men's Cut</td>
-									<td>£28.00</td>
-								</tr>
-								<tr>
-									<td>Wash, Cut and Blowdry</td>
-									<td>£38.00</td>
-								</tr>
-								<tr>
-									<td>Thick / Long / Restyle</td>
-									<td>£42.00</td>
-								</tr>
-								<tr>
-									<td>Tint</td>
-									<td>£36.00</td>
-								</tr>
-								<tr>
-									<td>Half Head Highlights</td>
-									<td>£50.00</td>
-								</tr>
-								<tr>
-									<td>Whole Head Highlights</td>
-									<td>£70.00</td>
-								</tr>
-								<tr>
-									<td>Balayage</td>
-									<td>£65.00 - £75.00</td>
-								</tr>
-								<tr>
-									<td>Blow Dry</td>
-									<td>£26.00</td>
-								</tr>
-								<tr>
-									<td>Bridal</td>
-									<td>Consultation Required</td>
-								</tr>
-								<tr>
-									<td>Hair Up Styling</td>
-									<td>From £35.00</td>
-								</tr>
-								<tr>
-									<td>Keratin Treatment / Brazilian Blowdry</td>
-									<td>£138.00</td>
-								</tr>
-								<tr>
-									<td>Hair Extensions</td>
-									<td>Consultation Required</td>
-								</tr>                                                                   
-							</tbody>
-						</table>
-                        <h5 class="headings-services"><i class="fas fa-first-aid"><span class="sr-only">Salon Safety</span></i> How I am keeping you safe...</h5>
-                        <p>I am in full compliance with current government guidelines for close contact services and review this on a daily basis.</p>
-                        <p>More information on the guidelines can be found here: <a href="https://www.gov.uk/guidance/working-safely-during-coronavirus-covid-19/close-contact-services" target="_blank">Working safely during COVID</a></p>
-                        <br>
-                    </div>
-				</div>
-		</section>
+			</div>
+	</section>
 
 <!-- ================================================FOOTER================================================-->
-		<footer>
-			<div id="footer-details" class="row">
-				<div class="col-12 col-md-4">
-					<h5 class="uppercase general-sub">Where to find me :</h5>
-					<br>
-					<p class="text-center">
-						<i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-						<span class="sr-only">Find me</span>
-						24 Mount Drive,<br>
+	<footer>
+		<div id="footer-details" class="row">
+			<div class="col-12 col-md-4">
+				<h5 class="uppercase general-sub">Where to find me :</h5>
+				<br>
+				<p class="text-center">
+					<i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+					<span class="sr-only">Find me</span>
+					24 Mount Drive,<br>
                     Harrow,<br>
                     Middlesex,<br>
                     HA2 7RP<br>
                 </p>
-						<br>
+				<br>
             </div>
-						<div class="col-12 col-md-4">
-							<h5 class="uppercase general-sub">Contact me :</h5>
-							<br>
-							<p class="text-center">
-								<i class="fas fa-phone" aria-hidden="true"></i>
-								<span class="sr-only">Phone me</span>
-								0208-429 8022<br>
-								<br>
-								<i class="fas fa-envelope" aria-hidden="true"></i>
-								<span class="sr-only">Email me</span>
-								<a href="mailto:hairbyjo@googlemail.com?subject=I'd%20like%20to%20make%20an%20appointment" target="_blank" id="email-color">hairbyjo@googlemail.com</a>
-								<br>
+			<div class="col-12 col-md-4">
+				<h5 class="uppercase general-sub">Contact me :</h5>
+				<br>
+				<p class="text-center">
+				    <i class="fas fa-phone" aria-hidden="true"></i>
+					<span class="sr-only">Phone me</span>
+					0208-429 8022<br>
+					<br>
+					<i class="fas fa-envelope" aria-hidden="true"></i>
+					<span class="sr-only">Email me</span>
+					<a href="mailto:hairbyjo@googlemail.com?subject=I'd%20like%20to%20make%20an%20appointment" target="_blank" id="email-color">hairbyjo@googlemail.com</a>
+					<br>
                 </p>
-								<br>
+				<br>
             </div>
-								<div class="col-12 col-md-4">
-									<h5 class="uppercase general-sub">Social :</h5>
-									<br>
-									<ul class="list-inline social-links">
-										<li class="list-inline-item">
-											<a href="https://www.facebook.com/Hair-By-Jo-241825395880141"
-												target="_blank">
-												<i class="fab fa-facebook" aria-hidden="true"></i>
-												<span class="sr-only">Facebook</span>
-											</a>
-										</li>
-										<li class="list-inline-item">
-											<a href="https://www.instagram.com/hairbyjo_jo.x/" target="_blank">
-												<i class="fab fa-instagram" aria-hidden="true"></i>
-												<span class="sr-only">Instagram</span>
-											</a>
-										</li>
-									</ul>
-									<br>
+			<div class="col-12 col-md-4">
+				<h5 class="uppercase general-sub">Social :</h5>
+				<br>
+				<ul class="list-inline social-links">
+					<li class="list-inline-item">
+						<a href="https://www.facebook.com/Hair-By-Jo-241825395880141" target="_blank">
+						    <i class="fab fa-facebook" aria-hidden="true"></i>
+							<span class="sr-only">Facebook</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="https://www.instagram.com/hairbyjo_jo.x/" target="_blank">
+							<i class="fab fa-instagram" aria-hidden="true"></i>
+							<span class="sr-only">Instagram</span>
+						</a>
+					</li>
+				</ul>
+				<br>
             </div>
-								</div>
-		</footer>
-	</div>
+		</div>
+	</footer>
+</div>
 
 <!-- ================================================SCRIPTS================================================-->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
