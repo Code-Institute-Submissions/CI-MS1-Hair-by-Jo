@@ -193,7 +193,7 @@ A modal contact form which is linked to all pages and useable on all devices to 
 
 #### 4. Skeleton
 
-* [Wireframe](docs/hair-by-jo-wireframe.pdf) was created using [Balsamiq](https://balsamiq.com/)
+* [Wireframe](https://github.com/scottsimpson91/CI-MS1-Hair-by-Jo/blob/master/assets/docs/hair-by-jo-wireframe.pdf) was created using [Balsamiq](https://balsamiq.com/)
 
 
 
