@@ -14,7 +14,7 @@ The aim of my first project for the Code Institute was to create a platform for 
 
 
 
-### Contents:
+## Contents:
 
 * Description
 * User Stories
@@ -31,13 +31,13 @@ The aim of my first project for the Code Institute was to create a platform for 
 
 
 
-### Description
+## Description
 
 The Hair by Jo project was designed to provide my sister with a website where she is able to demonstrate her work and increase the number of enquiries made. By creating a website with a method of easily contacting her, this will hopefully make the process of getting an appointment easier, which will ultimately increase business.
 
 
 
-### User Stories
+## User Stories
 
 * "I want to easily understand the main purposes of the site and learn more about the business"
 * "I want to be able to navigate throughout the site easily and find services and prices on offer"
@@ -49,7 +49,7 @@ The Hair by Jo project was designed to provide my sister with a website where sh
 
 
 
-### Market Research
+## Market Research
 
 I decided to carry out B2C interviews with customers to find out what makes a good UX and what information and features they would like to see on the website.
 
@@ -59,19 +59,19 @@ All of this information was used when designing the layout, colour scheme, typog
 
 
 
-### UX
+## UX
 
 The website was designed mainly for a female demographic of all ages, however with the male customer also in mind. It was designed to be a simple, yet effective website which clearly demonstrated examples of Jo's work and ways to contact her.
 
 
 
-##### 1. Strategy
+#### 1. Strategy
 
 The aim of the project was to increase the number of enquiries made with the business by providing a simple and clean UX which was user-friendly. An increased number of enquiries will hopefully lead to more business.
 
 
 
-###### Business Goals
+##### Business Goals
 
 * Increase the number of enquiries made
 * Increase the number of followers on social media accounts
@@ -82,7 +82,7 @@ The aim of the project was to increase the number of enquiries made with the bus
 
 
 
-###### Customer Goals
+##### Customer Goals
 
 * Easy to find contact information to make enquiries
 
@@ -98,15 +98,15 @@ The aim of the project was to increase the number of enquiries made with the bus
 
   
 
-##### 2. Scope
+#### 2. Scope
 
 The scope of the project and features to include were influenced by the market research carried out with customers. It should be a mobile-first website that is responsive on all devices.
 
 
 
-###### Current Features
+##### Current Features
 
-* Navigation Bar
+* ###### Navigation Bar
 
   * Large font used to make finding and distinguishing different pages easy
   * Responsive navigation bar that condenses down to an icon on smaller devices
@@ -115,7 +115,7 @@ The scope of the project and features to include were influenced by the market r
 
   
 
-* Home Page
+* ###### Home Page
 
   * Book an appointment button to act as a clear and immediate call to action to increase enquiries
   * Basic animated hero image to enhance overall UX
@@ -124,7 +124,7 @@ The scope of the project and features to include were influenced by the market r
 
   
 
-* Services Page
+* ###### Services Page
 
   * Easy to read list of all services and prices on offer
   * Clear explanation and assurance that the business is working through within government COVID guidelines
@@ -134,7 +134,7 @@ The scope of the project and features to include were influenced by the market r
 
   
 
-* Gallery Page
+* ###### Gallery Page
 
   * Simple and responsive layout that clearly shows some work that Jo has carried out
   * A number of pictures included clearly demonstrate protective gowns and facemasks being worn due to COVID
@@ -142,32 +142,34 @@ The scope of the project and features to include were influenced by the market r
 
   
 
-* Testimonials Page
+* ###### Testimonials Page
 
   * Clear examples of recent testimonials from customers and where they are from
 
   
 
-* Footer
+* ###### Footer
 
   * Clear indication of where the business is located and ways to contact Jo
   * Links to social media accounts to demonstrate work and increase following
 
 
 
-* Site Wide Alert
+* ###### Site Wide Alert
+
   * Alert across all pages, located at the top with a phone number so customers are easily able to contact Jo
 
 
 
-* Banner
+* ###### Banner
+
   * Banner across all pages which highlights key things a customer would want to see such as 'COVID Compliant', 'Over 23 Years of Experience' and 'Highly Rated'
     * This condenses down to one when viewed on mobile devices for better UX
     * 'COVID Compliant' was chosen as the one to display as it was important given the current circumstances
 
 
 
-##### 3. Structure
+#### 3. Structure
 
 The site was designed to have essential pages which are Home, Services, Gallery, Testimonials and a Contact modal which was gathered using B2C research. The same navigation bar and footer was used across all pages for consistency and better IXD.
 
@@ -189,30 +191,30 @@ A modal contact form which is linked to all pages and useable on all devices to 
 
 
 
-##### 4. Skeleton
+#### 4. Skeleton
 
 * [Wireframe](docs/hair-by-jo-wireframe.pdf) was created using [Balsamiq](https://balsamiq.com/)
 
 
 
-##### 5. Surface
+#### 5. Surface
 
-###### Design
+##### Design
 
-* Colour Scheme
+* ###### Colour Scheme
 
   * The main colour used throughout the website is a dark blue (#1D3557) which provide a slick and professional look
   * This was combined with white (#fff), black (#000) and yellow (#ffd700) to make all text stand out
 
   
 
-* Typography
+* ###### Typography
 
   * Laila was used as the main font throughout the website as it is rounded and easy to read across all devices. Serif was used as a backup font should the primary one not load
 
   
 
-* Imagery
+* ###### Imagery
 
   * The home page used a black and white image which was animated to provide and engage users
   * An image of the salon was used on the services pages to show customers the environment in which they may be visiting
@@ -221,13 +223,13 @@ A modal contact form which is linked to all pages and useable on all devices to 
 
   
 
-* Icons
+* ###### Icons
 
   * Icons across the website were sourced from [Font Awesome](https://fontawesome.com/), which provided visual indications of what the section was about
 
 
 
-### Future Improvements
+## Future Improvements
 
 * Form submission to be functional
 * Implement a booking system, whereby a customer is able to directly book in and see the diary rather than having to make an enquiry first
@@ -238,7 +240,7 @@ A modal contact form which is linked to all pages and useable on all devices to 
 
 
 
-### Changes
+## Changes
 
 A number of changes were made after the initial wireframe was created, these include:
 
@@ -249,16 +251,16 @@ A number of changes were made after the initial wireframe was created, these inc
 
 
 
-### Technologies Used
+## Technologies Used
 
-###### Languages Used
+##### Languages Used
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 
 
-###### Frameworks, Libraries & Programs Used
+##### Frameworks, Libraries & Programs Used
 
 * [Bootstrap 4.5.3](https://getbootstrap.com/)
 * [Hover.css](https://ianlunn.github.io/Hover/)
@@ -279,9 +281,9 @@ A number of changes were made after the initial wireframe was created, these inc
 
 
 
-### Testing
+## Testing
 
-###### User Story Testing
+##### User Story Testing
 
 * "I want to easily understand the main purposes of the site and learn more about the business"
 
@@ -330,7 +332,7 @@ A number of changes were made after the initial wireframe was created, these inc
 
 
 
-###### General Testing
+##### General Testing
 
 * Tested all external links opened in a new tab and went to the correct page
 * Tested all internal links within the pages
@@ -341,7 +343,7 @@ A number of changes were made after the initial wireframe was created, these inc
 
 
 
-###### Validation
+##### Validation
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -360,7 +362,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 
-###### Devices
+##### Devices
 
 The website was initially tested on different types of devices using Chrome DevTools to see if there were any immediate issues. 
 
@@ -387,7 +389,7 @@ The following devices were used:
 
 
 
-###### Errors/Bugs During Device Testing
+##### Errors/Bugs During Device Testing
 
 * iPad Mini / iPad Air - Safari Browser
 
@@ -403,7 +405,7 @@ The following devices were used:
 
     
 
-* iPhone 7 - Safari Browser
+* ###### iPhone 7 - Safari Browser
 
   * Vertical scrolling appeared within footer, gallery and testimonials
 
@@ -413,7 +415,7 @@ The following devices were used:
 
     
 
-* iPhone X - Chrome Browser
+* ###### iPhone X - Chrome Browser
 
   * Modal buttons needed enlarging
 
@@ -423,7 +425,7 @@ The following devices were used:
 
     
 
-* iPhone 11 Pro Max - Safari Browser
+* ###### iPhone 11 Pro Max - Safari Browser
 
   * Vertical scrolling appeared in the home page paragraph text, testimonials and footer
 
@@ -433,7 +435,7 @@ The following devices were used:
 
     
 
-* Samsung Galaxy S9 - Samsung Internet Browser
+* ###### Samsung Galaxy S9 - Samsung Internet Browser
 
   * Modal buttons needed enlarging
 
@@ -441,19 +443,19 @@ The following devices were used:
 
     
 
-* iMac - OS X Yosemite - Safari Browser
+* ###### iMac - OS X Yosemite - Safari Browser
 
   * No immediate issues
 
     
 
-* Sony Vaio Laptop - Windows 8 - Chrome Browser
+* ###### Sony Vaio Laptop - Windows 8 - Chrome Browser
 
   * No immediate issues
 
 
 
-###### Errors During Testing
+##### Errors During Testing
 
 * [W3C Markup Validator](https://validator.w3.org/)
 
@@ -475,15 +477,15 @@ The following devices were used:
 
 
 
-###### Known Bugs
+##### Known Bugs
 
 * Menu icon appearing in the middle-right of the navbar when viewed on an iPad, but then moves to the right when clicked
 
 
 
-### Deployment
+## Deployment
 
-###### GitHub Pages
+##### GitHub Pages
 
 The project was deployed to GitHub Pages using the following steps:
 
@@ -494,14 +496,14 @@ The project was deployed to GitHub Pages using the following steps:
 5. The page will automatically refresh
 6. Scroll back down through the page to locate the now published site [link](https://scottsimpson91.github.io/CI-MS1-Hair-by-Jo/) in the "GitHub Pages" section
 7. The code can be run locally through clone or download, you can do this by opening the [repository](https://github.com/scottsimpson91/CI-MS1-Hair-by-Jo), clicking on the code button and then selecting either 'clone' or 'download'
-8. The Clone option provides a url, which you can use on your desktop IDE
+8. The Clone option provides a url, which you can use on your desktop IDE - Additional guidance can be found [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 9. The Download option provides a link to download a ZIP file which can be unzipped on your local machine
 
 
 
-### Credits
+## Credits
 
-###### Media
+##### Media
 
 * Hero image sourced from [Unsplash](https://unsplash.com/photos/z0FhTWzKtxY)
 
@@ -513,9 +515,9 @@ The project was deployed to GitHub Pages using the following steps:
 
   
 
-###### Code Snippets
+##### Code Snippets
 
-* [Code Institute](https://codeinstitute.net/) 
+* ###### [Code Institute](https://codeinstitute.net/) 
 
   * Code for hero image and animation from the "Love Running" lessons and adapted to own project
   * Code for site wide alert and main button from "Whiskey Drop" lessons and adapted to own project
@@ -523,57 +525,57 @@ The project was deployed to GitHub Pages using the following steps:
 
   
 
-* [Codeply](https://www.codeply.com/)
+* ###### [Codeply](https://www.codeply.com/)
 
   * Code for Navbar used and adapted to own project - [Here](https://www.codeply.com/go/qhaBrcWp3v)
   * Guidance on vertical centering images - [Here](https://www.codeply.com/go/WG15ZWC4lf)
 
   
 
-* [MdBoostrap](https://mdbootstrap.com/)
+* ###### [MdBoostrap](https://mdbootstrap.com/)
 
   * Code for modal form used and adapted to own project - [Here](https://mdbootstrap.com/docs/jquery/modals/forms/)
 
   
 
-* [Bootstrap](https://getbootstrap.com/)
+* ###### [Bootstrap](https://getbootstrap.com/)
 
   * Code for table used and adapted to own project - [Here](https://getbootstrap.com/docs/4.0/content/tables/)
   * Guidance on text alignment code - [Here](https://getbootstrap.com/docs/4.0/utilities/text/)
 
   
 
-* [Stack Overflow](https://stackoverflow.com/)
+* ###### [Stack Overflow](https://stackoverflow.com/)
 
   * Guidance on horizontally centering button - [Here](https://stackoverflow.com/questions/15300234/how-can-i-horizontally-center-a-button-element-in-a-div-element)
 
   
 
-* [Start Bootstrap](https://startbootstrap.com/)
+* ###### [Start Bootstrap](https://startbootstrap.com/)
 
   * Code for gallery used and adapted to own project - [Here](https://startbootstrap.com/snippets/thumbnail-gallery/)
 
   
 
-* [CSS-Tricks](https://css-tricks.com/)
+* ###### [CSS-Tricks](https://css-tricks.com/)
 
   * Guidance on fixing overflow issues - [Here](https://css-tricks.com/findingfixing-unintended-body-overflow/)
 
   
 
-* [Slack](https://slack.com/intl/en-gb/)
+* ###### [Slack](https://slack.com/intl/en-gb/)
 
   * Guidance on creating a custom 404 error page from Karina Finegan and Anthony O'Brien - [Here](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1598280091096500)
 
   
 
-###### Content
+##### Content
 
 All text content was written by the developer
 
 
 
-### Acknowledgements
+## Acknowledgements
 
 I would like to thank the following:
 
@@ -583,7 +585,7 @@ I would like to thank the following:
 
 
 
-### Support
+## Support
 
 For any issues or information, please email me on scottsimpson7@googlemail.com
 
