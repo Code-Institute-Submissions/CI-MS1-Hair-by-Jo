@@ -110,9 +110,7 @@ The scope of the project and features to include were influenced by the market r
 
   * Large font used to make finding and distinguishing different pages easy
   * Responsive navigation bar that condenses down to an icon on smaller devices
-
-* Contact form modal which is linked to all pages and useable on all devices to increase enquiries
-
+  * Contact form modal which is linked to all pages and useable on all devices to increase enquiries
   * Logo and h1 tag clickable across all pages to link back to the main home page
 
   
