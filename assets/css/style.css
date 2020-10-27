@@ -14,9 +14,16 @@ body {
 .navbar {
     background-color: #1D3557;
 }
-.navbar h1, h4 {
+.navbar h1 {
     color: #fff;
     padding: 1rem;
+    padding-left: .5rem;
+    font-size: 3.5rem;   
+}
+.navbar h4 {
+    color: #fff;
+    padding: 1rem;
+    font-size: 2.5rem;
 }
 .nav-item a {
     width: 100%;
@@ -32,19 +39,8 @@ body {
     margin-right: 0;
 }
 /*--------------------------------------------Headings*/
-h1 {
-    padding-left: .5rem;
-    font-size: 3.5rem;
-}
 h2 em {
     font-size: 1.8rem;
-}
-h4 {
-    font-size: 2.5rem;
-}
-h5 {
-    margin: 0;
-    font-size: 2rem;
 }
 .general-sub {
     font-family: 'Laila', serif;
@@ -54,6 +50,8 @@ h5 {
     text-underline-position: under;
     padding: 1rem;
     line-height: 1.6;
+    margin: 0;
+    font-size: 2rem;
 }
 .content-headings {
     text-transform: uppercase;
@@ -72,14 +70,18 @@ h5 {
     font-weight: 700;
     line-height: 1.6;
     padding-bottom: 1rem;
+    margin: 0;
+    font-size: 2rem;
 }
-.headings-services {
+.services-headings {
     text-transform: uppercase;
     color: #000;
     padding-top: 2rem;
     font-weight: 700;
     line-height: 1.6;
     padding-bottom: 1rem;
+    margin: 0;
+    font-size: 2rem;
 }
 /*--------------------------------------------Special paddings/margins/text*/
 .uppercase {
@@ -106,7 +108,7 @@ h5 {
 #services-link {
     font-size: 1.6rem;
 }
-strong {
+.site-wide-alert strong {
     font-size: 1.6rem;
 }
 a {
@@ -202,6 +204,8 @@ footer {
 .modal-title {
     color: #000;
     text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
 }
 .modal-body label {
     font-size: 1.6rem
@@ -296,19 +300,14 @@ td {
 #cover-text {
     font-family: 'Laila', serif;
     text-align: center;
-
-
     width: 35rem;
     height: 12rem;
     padding: 1.4rem;
     margin: auto;
-
     background-color: rgba(29, 53, 87, .7);
-
     bottom: 5rem;
     left: 0;
     right: 0;
-
     position: absolute;
 }
 /*--------------------------------------------Images*/
