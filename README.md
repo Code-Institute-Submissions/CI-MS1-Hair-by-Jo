@@ -110,7 +110,9 @@ The scope of the project and features to include were influenced by the market r
 
   * Large font used to make finding and distinguishing different pages easy
   * Responsive navigation bar that condenses down to an icon on smaller devices
-  * Contact form modal which is linked to all pages and useable on all devices to increase enquiries
+
+* Contact form modal which is linked to all pages and useable on all devices to increase enquiries
+
   * Logo and h1 tag clickable across all pages to link back to the main home page
 
   
@@ -121,8 +123,6 @@ The scope of the project and features to include were influenced by the market r
   * Basic animated hero image to enhance overall UX
   * Small about me section to quickly express Jo's experience and qualifications and a brief overview of services offered
   * Link to services and prices page so customers are easily able to find what information they need
-
-  
 
 * ###### Services Page
 
@@ -140,13 +140,9 @@ The scope of the project and features to include were influenced by the market r
   * A number of pictures included clearly demonstrate protective gowns and facemasks being worn due to COVID
   * Mixture of pictures used that highlight different hair styles on offer
 
-  
-
 * ###### Testimonials Page
 
   * Clear examples of recent testimonials from customers and where they are from
-
-  
 
 * ###### Footer
 
@@ -206,13 +202,9 @@ A modal contact form which is linked to all pages and useable on all devices to 
   * The main colour used throughout the website is a dark blue (#1D3557) which provide a slick and professional look
   * This was combined with white (#fff), black (#000) and yellow (#ffd700) to make all text stand out
 
-  
-
 * ###### Typography
 
   * Laila was used as the main font throughout the website as it is rounded and easy to read across all devices. Serif was used as a backup font should the primary one not load
-
-  
 
 * ###### Imagery
 
@@ -220,8 +212,6 @@ A modal contact form which is linked to all pages and useable on all devices to 
   * An image of the salon was used on the services pages to show customers the environment in which they may be visiting
   * A collection of different images were used on the gallery page to demonstrate some of the work that was recently carried out and also demonstrate that safety measures in place due to COVID
   * Two images on the home page under the hero image demonstrate Jo's work she has done for various hairdressing competitions
-
-  
 
 * ###### Icons
 
@@ -364,7 +354,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ##### Devices
 
-The website was initially tested on different types of devices using Chrome DevTools to see if there were any immediate issues. 
+The website was initially tested on different types of devices using Chrome DevTools to see if there were any immediate issues. The website works well on all mobile devices from 320px and upwards.
 
 
 
@@ -403,8 +393,6 @@ The following devices were used:
 
   * Email icon in footer was appearing on own line
 
-    
-
 * ###### iPhone 7 - Safari Browser
 
   * Vertical scrolling appeared within footer, gallery and testimonials
@@ -412,8 +400,6 @@ The following devices were used:
   * Modal buttons needed enlarging
 
   * Need to add background colour to modal close button as it was hard to find
-
-    
 
 * ###### iPhone X - Chrome Browser
 
@@ -423,8 +409,6 @@ The following devices were used:
 
   * Vertical scrolling appeared on testimonials page
 
-    
-
 * ###### iPhone 11 Pro Max - Safari Browser
 
   * Vertical scrolling appeared in the home page paragraph text, testimonials and footer
@@ -433,21 +417,15 @@ The following devices were used:
 
   * Need to add background colour to modal close button as it was hard to find
 
-    
-
 * ###### Samsung Galaxy S9 - Samsung Internet Browser
 
   * Modal buttons needed enlarging
 
   * Need to add background colour to modal close button as it was hard to find
 
-    
-
 * ###### iMac - OS X Yosemite - Safari Browser
 
   * No immediate issues
-
-    
 
 * ###### Sony Vaio Laptop - Windows 8 - Chrome Browser
 
@@ -480,6 +458,7 @@ The following devices were used:
 ##### Known Bugs
 
 * Menu icon appearing in the middle-right of the navbar when viewed on an iPad, but then moves to the right when clicked
+* Cover text box not centered on iPhone 5/SE, however it is all still functional
 
 
 
@@ -523,51 +502,39 @@ The project was deployed to GitHub Pages using the following steps:
   * Code for site wide alert and main button from "Whiskey Drop" lessons and adapted to own project
   * Influence from "CV Resume" lessons and adapted to own project
 
-  
-
 * ###### [Codeply](https://www.codeply.com/)
 
   * Code for Navbar used and adapted to own project - [Here](https://www.codeply.com/go/qhaBrcWp3v)
   * Guidance on vertical centering images - [Here](https://www.codeply.com/go/WG15ZWC4lf)
 
-  
-
 * ###### [MdBoostrap](https://mdbootstrap.com/)
 
   * Code for modal form used and adapted to own project - [Here](https://mdbootstrap.com/docs/jquery/modals/forms/)
-
-  
 
 * ###### [Bootstrap](https://getbootstrap.com/)
 
   * Code for table used and adapted to own project - [Here](https://getbootstrap.com/docs/4.0/content/tables/)
   * Guidance on text alignment code - [Here](https://getbootstrap.com/docs/4.0/utilities/text/)
 
-  
-
 * ###### [Stack Overflow](https://stackoverflow.com/)
 
   * Guidance on horizontally centering button - [Here](https://stackoverflow.com/questions/15300234/how-can-i-horizontally-center-a-button-element-in-a-div-element)
-
-  
 
 * ###### [Start Bootstrap](https://startbootstrap.com/)
 
   * Code for gallery used and adapted to own project - [Here](https://startbootstrap.com/snippets/thumbnail-gallery/)
 
-  
-
 * ###### [CSS-Tricks](https://css-tricks.com/)
 
   * Guidance on fixing overflow issues - [Here](https://css-tricks.com/findingfixing-unintended-body-overflow/)
-
-  
 
 * ###### [Slack](https://slack.com/intl/en-gb/)
 
   * Guidance on creating a custom 404 error page from Karina Finegan and Anthony O'Brien - [Here](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1598280091096500)
 
-  
+* ###### [W3.org](https://www.w3.org/)
+
+  * Guidance on how to add a Fav Icon found - [Here](https://www.w3.org/2005/10/howto-favicon#profile)
 
 ##### Content
 
