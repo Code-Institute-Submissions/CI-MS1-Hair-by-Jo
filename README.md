@@ -17,12 +17,12 @@ The aim of my first project for the Code Institute was to create a platform for 
 ## Contents:
 
 * [Description](##Description)
-* [User Stories](##User Stories)
-* [Market Research](##Market Research)
-* [UX and Features](##UX and Features)
-* [Future Improvements](##Future Improvements)
+* [User Stories](##UserStories)
+* [Market Research](##MarketResearch)
+* [UX and Features](##UXandFeatures)
+* [Future Improvements](##FutureImprovements)
 * [Changes](##Changes)
-* [Technologies Used](##Technologies Used)
+* [Technologies Used](##TechnologiesUsed)
 * [Testing](##Testing)
 * [Deployment](##Deployment)
 * [Credits](##Credits)
