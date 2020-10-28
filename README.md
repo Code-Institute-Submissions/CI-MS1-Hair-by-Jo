@@ -290,6 +290,7 @@ A number of changes were made after the initial wireframe was created, these inc
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
 * [TinyPNG](https://tinypng.com/)
 * [Autoprefixer CSS](https://autoprefixer.github.io/)
+* [Favicon.cc](https://www.favicon.cc/)
 
 
 
@@ -512,6 +513,8 @@ The project was deployed to GitHub Pages using the following steps:
 * Other images sourced from Jo with permission who owns the photos and are published on her [Facebook](https://www.facebook.com/Hair-By-Jo-241825395880141) and [Instagram](https://www.instagram.com/hairbyjo_jo.x/)
 
 * 404 page image was created by Gan Khoon Lay from the [Noun Project](https://thenounproject.com/search/?q=bad+haircut&i=980152)
+
+* Favicon was generated from [Favicon.cc](https://www.favicon.cc/)
 
 * [TinyPNG](https://tinypng.com/) was used to reduce the overall total image size
 
