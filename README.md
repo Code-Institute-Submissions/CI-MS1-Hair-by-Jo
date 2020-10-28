@@ -16,18 +16,18 @@ The aim of my first project for the Code Institute was to create a platform for 
 
 ## Contents:
 
-* Description
-* User Stories
-* Market Research
-* UX / Features
-* Future Improvements
-* Changes
-* Technologies Used
-* Testing
-* Deployment
-* Credits
-* Acknowledgements
-* Support
+* [Description](##Description)
+* [User Stories](##User Stories)
+* [Market Research](##Market Research)
+* [UX and Features](##UX and Features)
+* [Future Improvements](##Future Improvements)
+* [Changes](##Changes)
+* [Technologies Used](##Technologies Used)
+* [Testing](##Testing)
+* [Deployment](##Deployment)
+* [Credits](##Credits)
+* [Acknowledgements](##Acknowledgements)
+* [Support](##Support)
 
 
 
@@ -59,7 +59,7 @@ All of this information was used when designing the layout, colour scheme, typog
 
 
 
-## UX
+## UX and Features
 
 The website was designed mainly for a female demographic of all ages, however with the male customer also in mind. It was designed to be a simple, yet effective website which clearly demonstrated examples of Jo's work and ways to contact her.
 
@@ -187,7 +187,31 @@ A modal contact form which is linked to all pages and useable on all devices to 
 
 #### 4. Skeleton
 
-* [Wireframe](https://github.com/scottsimpson91/CI-MS1-Hair-by-Jo/blob/master/assets/docs/hair-by-jo-wireframe.pdf) was created using [Balsamiq](https://balsamiq.com/)
+* Wireframe was created using [Balsamiq](https://balsamiq.com/)
+
+
+
+###### Home Page
+
+![](assets/images/wireframe-home.png)
+
+
+
+###### Services Page
+
+![](assets/images/wireframe-services.png)
+
+
+
+###### Gallery Page
+
+![](assets/images/wireframe-gallery.png)
+
+
+
+###### Testimonials Page
+
+![](assets/images/wireframe-testimonials.png)
 
 
 
@@ -455,7 +479,6 @@ The following devices were used:
 
 ##### Known Bugs
 
-* Menu icon appearing in the middle-right of the navbar when viewed on an iPad, but then moves to the right when clicked
 * Cover text box not centered on iPhone 5/SE, however it is all still functional
 
 
@@ -466,15 +489,17 @@ The following devices were used:
 
 The project was deployed to GitHub Pages using the following steps:
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/scottsimpson91/CI-MS1-Hair-by-Jo)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section
-4. Under "Source", click the dropdown called "None" and select "Master Branch"
-5. The page will automatically refresh
-6. Scroll back down through the page to locate the now published site [link](https://scottsimpson91.github.io/CI-MS1-Hair-by-Jo/) in the "GitHub Pages" section
-7. The code can be run locally through clone or download, you can do this by opening the [repository](https://github.com/scottsimpson91/CI-MS1-Hair-by-Jo), clicking on the code button and then selecting either 'clone' or 'download'
-8. The Clone option provides a url, which you can use on your desktop IDE - Additional guidance can be found [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
-9. The Download option provides a link to download a ZIP file which can be unzipped on your local machine
+1. A local project was created in GitHub with a new repository called 'CI-MS1-Hair-by-Jo'
+2. The project had regular push and detailed commits which were pushed to the GitHub website before deployment
+3. The project was deployed by logging in to GitHub and locating the [GitHub Repository](https://github.com/scottsimpson91/CI-MS1-Hair-by-Jo)
+4. At the top of the Repository (not top of page), locate the "Settings" Button on the menu and click
+5. Scroll down the Settings page until the "GitHub Pages" Section was found
+6. Under "Source", click the dropdown called "None" and select "Master Branch"
+7. The page will automatically refresh
+8. Scroll back down through the page to locate the now published site [link](https://scottsimpson91.github.io/CI-MS1-Hair-by-Jo/) in the "GitHub Pages" section
+9. The code can be run locally through clone or download, you can do this by opening the [repository](https://github.com/scottsimpson91/CI-MS1-Hair-by-Jo), clicking on the code button and then selecting either 'clone' or 'download'
+10. The Clone option provides a url, which you can use on your desktop IDE - Additional guidance can be found [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+11. The Download option provides a link to download a ZIP file which can be unzipped on your local machine
 
 
 
