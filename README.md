@@ -16,28 +16,28 @@ The aim of my first project for the Code Institute was to create a platform for 
 
 ## Contents:
 
-* [Description](##Description)
-* [User Stories](##UserStories)
-* [Market Research](##MarketResearch)
-* [UX and Features](##UXandFeatures)
-* [Future Improvements](##FutureImprovements)
-* [Changes](##Changes)
-* [Technologies Used](##TechnologiesUsed)
-* [Testing](##Testing)
-* [Deployment](##Deployment)
-* [Credits](##Credits)
-* [Acknowledgements](##Acknowledgements)
-* [Support](##Support)
+* [Description](#description)
+* [User Stories](#user-stories)
+* [Market Research](#market-research)
+* [UX and Features](#ux-and-features)
+* [Future Improvements](#future-improvements)
+* [Changes](#changes)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [Acknowledgements](#acknowledgements)
+* [Support](#support)
 
 
 
-## Description
+## <a name="description">Description</a>
 
 The Hair by Jo project was designed to provide my sister with a website where she is able to demonstrate her work and increase the number of enquiries made. By creating a website with a method of easily contacting her, this will hopefully make the process of getting an appointment easier, which will ultimately increase business.
 
 
 
-## User Stories
+## <a name="user-stories">User Stories</a>
 
 * "I want to easily understand the main purposes of the site and learn more about the business"
 * "I want to be able to navigate throughout the site easily and find services and prices on offer"
@@ -49,7 +49,7 @@ The Hair by Jo project was designed to provide my sister with a website where sh
 
 
 
-## Market Research
+## <a name="market-research">Market Research</a>
 
 I decided to carry out B2C interviews with customers to find out what makes a good UX and what information and features they would like to see on the website.
 
@@ -59,7 +59,7 @@ All of this information was used when designing the layout, colour scheme, typog
 
 
 
-## UX and Features
+## <a name="ux-and-features">UX and Features</a>
 
 The website was designed mainly for a female demographic of all ages, however with the male customer also in mind. It was designed to be a simple, yet effective website which clearly demonstrated examples of Jo's work and ways to contact her.
 
@@ -241,7 +241,7 @@ A modal contact form which is linked to all pages and useable on all devices to 
 
 
 
-## Future Improvements
+## <a name="future-improvements">Future Improvements</a>
 
 * Form submission to be functional
 * Implement a booking system, whereby a customer is able to directly book in and see the diary rather than having to make an enquiry first
@@ -252,7 +252,7 @@ A modal contact form which is linked to all pages and useable on all devices to 
 
 
 
-## Changes
+## <a name="changes">Changes</a>
 
 A number of changes were made after the initial wireframe was created, these include:
 
@@ -263,7 +263,7 @@ A number of changes were made after the initial wireframe was created, these inc
 
 
 
-## Technologies Used
+## <a name="technologies-used">Technologies Used</a>
 
 ##### Languages Used
 
@@ -293,7 +293,7 @@ A number of changes were made after the initial wireframe was created, these inc
 
 
 
-## Testing
+## <a name="testing">Testing</a>
 
 ##### User Story Testing
 
@@ -483,7 +483,7 @@ The following devices were used:
 
 
 
-## Deployment
+## <a name="deployment">Deployment</a>
 
 ##### GitHub Pages
 
@@ -503,7 +503,7 @@ The project was deployed to GitHub Pages using the following steps:
 
 
 
-## Credits
+## <a name="credits">Credits</a>
 
 ##### Media
 
@@ -565,7 +565,7 @@ All text content was written by the developer
 
 
 
-## Acknowledgements
+## <a name="acknowledgements">Acknowledgements</a>
 
 I would like to thank the following:
 
@@ -575,7 +575,7 @@ I would like to thank the following:
 
 
 
-## Support
+## <a name="support">Support</a>
 
 For any issues or information, please email me on scottsimpson7@googlemail.com
 
