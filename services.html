@@ -10,7 +10,7 @@
 		integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
 		type="text/css" />
-    <link rel="shortcut icon" href="https://previews.dropbox.com/p/thumb/AA_jDT2CQrKrBNTqJPzck-DNivEIOWryJ0Ywz4Lz7QAR2stIUJVf75bEZM0LmK9G0xls2abTrXARmHbl1QFB-A-UWEqT5pbqakkuCUQBsq6UjqaGpyqOjlEg_x7sbxpCrQqX_T5FzMuy0e5TAyst6S7mvzWILKX6vTPOQEzrCNp3qPK-jvELUCxFQqYICtUBFfqmw1Q4APl-TF7KP7SOzOTm9MEgU37rt4PoIwEiaMfvN6dQtYoNIYxWPzALKX7BIr3z6b_zGIlX5axL8Ez9zPFlHWkhVegWHU3Az296iJakC6C9Wqp52HQXl1r-NRDxKQYBTGEwEx_8Ic_POIGzjbEsRp-2WsFn8c2hR_VWpXJiMA/p.png?fv_content=true&size_mode=5">
+    <link rel="shortcut icon" href="https://photos.google.com/photo/AF1QipMC83Zc9nbw7GFUoJKbO7-XCjf2tlI4GA92TUbu">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<title>Hair by Jo</title>
 </head>
@@ -51,6 +51,7 @@
                     <li class="nav-item">
                         <a href="services.html" class="nav-link">
                             <h4>Services</h4>
+                            <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -70,44 +71,43 @@
                     </li>
                 </ul>
             </div>
-
+		</nav>
 <!-- ================================================MODAL=======CODE TAKEN FROM MDBOOTSTRAP WEBSITE=======-->
-            <form action="#" method="post">   
-                <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-label="Modal" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <div class="modal-title">Write to me:</div>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
+        <form action="#" method="post">   
+            <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-label="Modal" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="modal-title">Write to me:</div>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body mx-3">
+                            <div class="md-form mb-5">
+                                <label for="fullname">Your name:</label>
+                                <input type="text" id="fullname" class="form-control" aria-describedby="fullname" placeholder="Enter full name" required>
                             </div>
-                            <div class="modal-body mx-3">
-                                <div class="md-form mb-5">
-                                    <label for="fullname">Your name:</label>
-                                    <input type="text" id="fullname" class="form-control" aria-describedby="fullname" placeholder="Enter full name" required>
-                                </div>
-                                <div class="md-form mb-5">
-                                    <label for="email">Your email:</label>
-                                    <input type="email" id="email" class="form-control" aria-describedby="email" placeholder="Enter email address" required>
-                                </div>
-                                <div class="md-form mb-5">
-                                    <label for="subject">Subject:</label>
-                                    <input type="text" id="subject" class="form-control" aria-describedby="fullname" placeholder="Enter your subject" required>
-                                </div>
-                                <div class="md-form">
-                                    <label for="message">Your message:</label>
-                                    <textarea name="content" id="message" class="md-textarea form-control" rows="4" aria-describedby="message" placeholder="Enter your message" required></textarea>
-                                </div>
+                            <div class="md-form mb-5">
+                                <label for="email">Your email:</label>
+                                <input type="email" id="email" class="form-control" aria-describedby="email" placeholder="Enter email address" required>
                             </div>
-                            <div class="modal-footer">
-                                <button type="submit" class="btn btn-lg btn-unique">Send</button>
+                            <div class="md-form mb-5">
+                                <label for="subject">Subject:</label>
+                                <input type="text" id="subject" class="form-control" aria-describedby="fullname" placeholder="Enter your subject" required>
                             </div>
+                            <div class="md-form">
+                                <label for="message">Your message:</label>
+                                <textarea name="content" id="message" class="md-textarea form-control" rows="4" aria-describedby="message" placeholder="Enter your message" required></textarea>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-lg btn-unique">Send</button>
                         </div>
                     </div>
                 </div>
-            </form>
-        </nav>
+            </div>
+        </form>
     </header>
 
 <!-- ================================================BANNER================================================-->
