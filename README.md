@@ -554,10 +554,11 @@ The project was deployed to GitHub Pages using the following steps:
 * ###### [Slack](https://slack.com/intl/en-gb/)
 
   * Guidance on creating a custom 404 error page from Karina Finegan and Anthony O'Brien - [Here](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1598280091096500)
+  * Guidance on Fav Icon - [Here](https://code-institute-room.slack.com/archives/C7HD37Q1F/p1555527961285800)
 
 * ###### [W3.org](https://www.w3.org/)
 
-  * Guidance on how to add a Fav Icon found - [Here](https://www.w3.org/2005/10/howto-favicon#profile)
+  * Guidance on how to add a Fav Icon - [Here](https://www.w3.org/2005/10/howto-favicon#profile)
 
 ##### Content
 
