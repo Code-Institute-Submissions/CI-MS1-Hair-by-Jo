@@ -120,6 +120,9 @@ a {
     color: #000;
     text-decoration: underline;
 }
+.gallery-container {
+    padding: 1rem;
+}
 /*--------------------------------------------Footer*/
 footer {
     background-color: #1D3557;
