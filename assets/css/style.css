@@ -18,7 +18,7 @@ body {
     color: #fff;
     padding: 1rem;
     padding-left: .5rem;
-    font-size: 3.5rem;   
+    font-size: 3rem;   
 }
 .navbar h4 {
     color: #fff;
@@ -37,6 +37,10 @@ body {
 }
 .navbar-brand {
     margin-right: 0;
+}
+.navbar-toggler {
+    font-size: 2rem;
+    padding: 1rem 2rem;
 }
 /*--------------------------------------------Headings*/
 .general-sub {
