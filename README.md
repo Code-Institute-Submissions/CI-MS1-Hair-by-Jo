@@ -243,7 +243,7 @@ A modal contact form which is linked to all pages and useable on all devices to 
 
 ## <a name="future-improvements">Future Improvements</a>
 
-* Form submission to be functional
+* Form submission to be functional - as this was a static site that only needed HTML and CSS elements for the project, there was no need to implement this straight away
 * Implement a booking system, whereby a customer is able to directly book in and see the diary rather than having to make an enquiry first
 * Improve the level of detail in terms of the types of products used
 * Create additional pages that highlight different aspects of work specifically (Hair extensions/Bridal) and other products that are able to be sold to customers
