@@ -237,7 +237,7 @@ td {
 .testimonials-box {
     background-color: #dcdcdc;
     padding: 3rem;
-    height: 34rem;
+    height: 30rem;
     margin: auto;
     text-align: center;
     font-size: 1.4rem;
@@ -252,6 +252,7 @@ td {
 }
 .testimonials-box p {
     padding: 1.5rem;
+    margin: 1rem 0;
 }
 /*-------------------------------------------- Hero Image*/
 #hero-image {
